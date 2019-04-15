@@ -1,28 +1,33 @@
+.jumbotron{
+    background:url("img/officeLogo.png");
+}
+
+
 /* body {
     background: linear-gradient(to bottom, #a882f6 0% ,  #ffee5a 100% );
 } */
 
-.container {
+/* .container {
   
     text-align: center;
     height: 100px;
-    line-height: 100px;
+    line-height: 100px; */
     /* padding-top: 10px; */
     
-}
+/* }
 #question1 , #options1 {
     background-color:pink;
     /* height: 100%; */
-}
-
+/* } */
+/* 
 #question2 , #options2  {
-    background-color: pink;
-}
+    background-color: pink; */
+/* }
 
 #mainPage {
-    padding-top: 200px;
-}
-
+    padding-top: 200px; */
+/* } */ 
+/* 
 #heading {
 padding-bottom: 10px;    
 }
@@ -37,9 +42,9 @@ padding-bottom: 10px;
 
 #options {
     /* border-bottom: 2px solid gray; */
-    background-color: pink;
-     
-}
+    /* background-color: pink; */
+/*       */
+/* }
 #bottomborder::after{
     content: "";
     display: block;
@@ -48,9 +53,9 @@ padding-bottom: 10px;
     padding-top: 2px;
     border-bottom: 2px solid gray;
     background-color: pink;
-}
+} */ 
 
-footer{
+/* footer{
  width: 100%;
  bottom:0;
  position: fixed;
@@ -63,4 +68,4 @@ footer{
 #head{
 background-color: lightgray;    
 width:100%;
-}
+} */
