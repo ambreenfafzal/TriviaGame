@@ -8,26 +8,47 @@
       <link rel="stylesheet" href="assets/css/style.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+           
+           
 
 
 
 
 
-
-      <title>The Office Trivia</title>
+      <title>  The Office Trivia
+           </title>
 </head>
 
 <body>
 
-      <div class="jumbotron" >
-            <h1 class="display-4" >The Office Trivia</h1>
-            <h3 id="timer"></h3>
+      <div class="jumbotron" style="background-color:cornflowerblue " >
+            <h1 class="display-4" ><strong> The Office Trivia</strong></h1>
+            <h6> <em>You have 30 seconds to answer all questions.</em> </h6>
+            <button type="button" class="btn btn-primary btn-sm" id="start-trivia">Start Trivia</button>
+            <div id="timer-div">
+                        <p id="timer"> 
+                        </p>
+            </div>
+           
+            
 
 
       </div>
+   
+      <div class="container" id="score-container">
+                  <div id="results">
 
-
+                           <strong> Total Right Answers:</strong> 
+                                    </div>
+                                    <div id="wrong-answers">
+                        
+                                                <strong> Total Wrong Answers:</strong> 
+                                                      </div>
+                                                      <button type="button" class="btn btn-primary btn-sm" id="play-again">Play again</button>
+      </div>
+      
       <div class="container" id="questions">
+                 
             <div id="question1" class="topMargin">
 
 
@@ -165,7 +186,7 @@
 
       </div>
       
-
+     
 
 
 
@@ -180,6 +201,7 @@
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="assets/javascript/app.js"></script>
+
 
 
 </html>
